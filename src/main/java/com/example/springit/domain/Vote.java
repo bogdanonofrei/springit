@@ -11,7 +11,7 @@ import java.util.Objects;
 @Entity
 @Data
 @NoArgsConstructor
-public class Vote {
+public class Vote extends Auditable{
 
     @Id
     @GeneratedValue
